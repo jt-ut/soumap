@@ -1,0 +1,68 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution and build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# mkdocs-jupyter build cache
+.cache/
+
+# Numba JIT cache
+__numba_cache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mkdocs build output
+site/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled C extensions
+*.so
+*.pyd
+
+# Downloaded datasets
+data/
+*.npz
+*.npy
+
+# Archive / backup code
+src/soumap/archive/
+
+# Test artifacts (saved model runs)
+tests/*.h5
+
+# Tests excluded from initial release (mnist, orion)
+tests/*mnist*
+tests/*orion*
+
+# Deploy helpers
+gitinit.sh
+gitdeploy.sh
+gitremakeipynb.sh

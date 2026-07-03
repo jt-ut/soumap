@@ -1,0 +1,10 @@
+# Core dependencies
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+umap-learn>=0.5
+h5py>=3.8
+
+# Author packages (installed from GitHub)
+vqlp @ git+https://github.com/jt-ut/vqlp.git
+gtsom @ git+https://github.com/jt-ut/gtsom.git
