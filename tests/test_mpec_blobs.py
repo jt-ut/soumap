@@ -93,7 +93,7 @@ ctrl_params = CtrlParams(
     total_epochs=100,
     min_nhbs=3,
     fill_val=1,
-    coord_init='pca',
+    coord_init='random',
     embedding_range=(-3.0, 3.0),
     n_jobs=1,              # sequential = reproducible
     random_state=42,
