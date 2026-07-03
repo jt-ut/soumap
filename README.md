@@ -34,6 +34,14 @@ pip install -e .
 - [umap-learn](https://github.com/lmcinnes/umap) — UMAP layout optimizer
 - numpy, scipy, scikit-learn, h5py, igraph, plotnine
 
+
+## Documentation
+
+Full documentation and a worked tutorial is available at:
+
+**[https://jt-ut.github.io/soumap](https://jt-ut.github.io/soumap)**
+
+
 ## Quick start
 
 ### SOUMAP
