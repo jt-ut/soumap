@@ -13,7 +13,6 @@ Quantization & Beyond, pp. 63-73. Springer.
 
 from .soumap import SOUMAP, SOMParams, UMAPParams, CtrlParams
 from .mpec import MPEClustering
-from .io import SOUMAPio, MPECio
 
 __all__ = [
     "SOUMAP",
@@ -21,6 +20,4 @@ __all__ = [
     "UMAPParams",
     "CtrlParams",
     "MPEClustering",
-    "SOUMAPio",
-    "MPECio",
 ]
