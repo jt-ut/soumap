@@ -30,6 +30,8 @@ dependencies = [
   "scikit-learn>=1.2",
   "umap-learn>=0.5",
   "h5py>=3.8",
+  "igraph>=0.10.8",
+  "plotnine>=0.13.6",
   "vqlp @ git+https://github.com/jt-ut/vqlp.git",
   "gtsom @ git+https://github.com/jt-ut/gtsom.git",
 ]

@@ -4,6 +4,8 @@ scipy>=1.10
 scikit-learn>=1.2
 umap-learn>=0.5
 h5py>=3.8
+igraph>=0.10.8
+plotnine>=0.13.6
 
 # Author packages (installed from GitHub)
 vqlp @ git+https://github.com/jt-ut/vqlp.git
