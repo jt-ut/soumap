@@ -48,6 +48,9 @@ Repository = "https://github.com/jt-ut/soumap"
 [tool.hatch.build.targets.wheel]
 packages = ["src/soumap"]
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "--cov=soumap --cov-report=term-missing"
